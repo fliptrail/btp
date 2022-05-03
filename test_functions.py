@@ -19,8 +19,8 @@ class BOHACHEVSKY:
 class EASOM:
     minimum = -1
     minima = (pi, pi)
-    x1_bounds = (1.5, 4.5)
-    x2_bounds = (1.5, 4.5)
+    x1_bounds = (1.8, 4.5)
+    x2_bounds = (1.8, 4.5)
 
     def z(x, y):
         t1 = cos(x)
