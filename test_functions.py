@@ -4,8 +4,8 @@ from numpy import sin, cos, exp, asarray
 class BOHACHEVSKY:
     minimum = 0.0
     minima = (0, 0)
-    x1_bounds = (-100, 100)
-    x2_bounds = (-100, 100)
+    x1_bounds = (-10, 10)
+    x2_bounds = (-10, 10)
 
     def z(x, y):
         return x**2.0 + 2*(y**2.0) - 0.3*cos(3*pi*x) -0.4*cos(4*pi*y) + 0.7
@@ -19,8 +19,8 @@ class BOHACHEVSKY:
 class EASOM:
     minimum = -1
     minima = (pi, pi)
-    x1_bounds = (-10, 10)
-    x2_bounds = (-10, 10)
+    x1_bounds = (1.5, 4.5)
+    x2_bounds = (1.5, 4.5)
 
     def z(x, y):
         t1 = cos(x)
